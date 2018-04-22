@@ -1,0 +1,328 @@
+﻿body {
+    background: #f8f8f8;
+    text-align: center;
+    color: #fff;
+    font-family: Microsoft YaHei, Segoe UI, Tahoma, Arial, Verdana, sans-serif;
+    margin: 0;
+    min-width: 1200px;
+}
+
+/*头部*/
+#header {
+    background: rgb(135,206,250);
+    height: 80px;
+    overflow: hidden;
+}
+
+#header .title {
+    float: left;
+    font-size: 46px;
+    margin: 15px 0 0 50px;
+    font-family: "Xingkai SC", '华文行楷';
+}
+
+#header ul {
+    margin-top: 30px;
+}
+
+#header ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+#header ul li a {
+    display: inline;
+}
+
+#header .info {
+    float: right;
+    margin: -40px 50px 0 0;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+}
+
+#header a:hover {
+    color: darkslategray;
+}
+
+/*底部版权信息*/
+#copyright {
+
+    color: #3d3d3d;
+}
+
+
+/*通用*/
+.container {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.container .content {
+    margin: 0 auto;
+    width: 1000px;
+    height: 720px;
+    background: white;
+    border-radius: 10px;
+}
+
+
+/*文章列表页*/
+#article_list .add {
+    position: relative;
+    left: 410px;
+    top: 40px;
+    background: darkslategray;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.article_list_table {
+    color: black;
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.article_list_table caption {
+    font-size: 30px;
+    text-align: left;
+    margin: 20px 0 20px -50px;
+    color: darkslategray;
+}
+
+.article_list_table th {
+    border-bottom: 1px solid #3d3d3d;
+    padding-bottom: 10px;
+}
+
+.article_list_table td {
+    text-align: center;
+    width: 25%;
+    padding-top: 30px;
+}
+
+.article_list_table tr {
+
+}
+
+.article_list_table a {
+    text-decoration: none;
+    color: black;
+}
+
+.article_list_table a:hover {
+    color: red;
+}
+
+.page_num p {
+    display: inline-block;
+    color: black;
+    margin: 40px 10px;
+}
+
+.page_num a {
+    color: black;
+    text-decoration: none;
+}
+
+.page_num a:hover {
+    color: darkslategray;
+}
+
+/*天气查询页*/
+#weather .content {
+    color: black;
+}
+
+#weather .content h2 {
+    color: darkslategray;
+}
+
+#weather .content .future {
+    padding-top: 30px;
+}
+
+#weather .content form {
+    padding-top: 20px;
+}
+
+#weather .content table {
+    text-align: center;
+    color: black;
+    margin: 20px auto;
+    width: 800px;
+}
+
+#weather .content table td {
+    padding-top: 10px;
+}
+
+/*文章发表*/
+#article_add .content table {
+    color: black;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+#article_add .content table caption {
+    font-size: 30px;
+    color: darkslategray;
+    padding: 20px 0;
+}
+
+#article_add .content table input {
+    width: 90%;
+}
+
+#article_add .content table textarea {
+    width: 90%;
+    max-width: 90%;
+    height: 500px;
+    max-height: 500px;
+    margin-top: 20px;
+}
+
+#article_add .content table .header {
+    width: 100px;
+    text-align: right;
+}
+
+#article_add .content table #submit {
+    width: 100px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/*文章详情*/
+#article_detail .content {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+#article_detail .content table {
+    color: black;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+#article_detail .content table td {
+    color: darkslategray;
+}
+
+#article_detail .content table caption {
+    font-size: 30px;
+    color: darkslategray;
+    padding: 10px 0;
+}
+
+#article_detail .content table input {
+    width: 15%;
+    cursor: pointer;
+}
+
+#article_detail .content table textarea {
+    width: 90%;
+    max-width: 90%;
+    margin-top: 10px;
+    min-height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#article_detail .content table .header {
+    width: 100px;
+    text-align: right;
+}
+
+#article_detail .pinlun {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#article_detail #input_content {
+    min-height: 100px;
+    height: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+#article_detail .comment td {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#article_detail .comment .author {
+    text-align: left;
+}
+
+#article_detail .comment td p {
+    text-align: left;
+}
+
+/*个人信息页*/
+#info img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 180px 0 0 180px;
+    border-radius: 10px;
+}
+
+#info table {
+    text-align: center;
+    width: 400px;
+    color: black;
+    float: right;
+    margin: 150px 100px 0 0;
+}
+
+#info table caption {
+    font-size: 30px;
+    color: darkslategray;
+}
+
+#info table td {
+    padding-top: 50px;
+}
+
+#info table td .btn {
+    font-size: 18px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background: darkslategray;
+    border-radius: 10px;
+}
+
+#info {
+    overflow: hidden;
+}
+
+#info form{
+    width: 100px;
+    float: left;
+    margin-top: 400px;
+    margin-left: -130px;
+}
+
+#info form input{
+    float: left;
+    width: 100px;
+    cursor: pointer;
+}
+#info form .pic_sure{
+    margin-left: -15px;
+    margin-top: 10px;
+}
