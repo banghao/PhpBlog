@@ -1,0 +1,19 @@
+#center_div
+{
+	position:relative;
+	margin: auto;
+	top: 120px;
+}
+#center_div h3
+{
+	position:relative;
+	margin: auto;
+	top: 30px;
+}
+#sign_table
+{
+	position:relative;
+	top: 50px;
+	text-align: left;
+	margin:auto;
+}

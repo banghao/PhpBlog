@@ -1,0 +1,622 @@
+!SESSION 2018-01-02 08:13:22.255 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication C:\Users\Administrator\Downloads\btzero_7_Director\btzero_7_Director\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication C:\Users\Administrator\Downloads\btzero_7_Director\btzero_7_Director\index.html
+
+!ENTRY com.aptana.core 1 0 2018-01-02 08:13:23.319
+!MESSAGE (Build null) [INFO]  ide start check begin
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:13:23.326
+!MESSAGE (Build null) [ERROR]  getRawLocationURI: file:/C:/Users/Administrator/Downloads/btzero_7_Director/btzero_7_Director
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:13:23.336
+!MESSAGE (Build null) [ERROR]  checkInstanceLocation
+
+!ENTRY com.pandora.core.utils 4 0 2018-01-02 08:13:23.352
+!MESSAGE (Build null) [ERROR]  remote-debugging-port == 49787
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:13:23.365
+!MESSAGE (Build null) [ERROR]  init CEF
+
+!ENTRY org.eclipse.ui 2 0 2018-01-02 08:13:23.483
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-01-02 08:13:23.483
+!MESSAGE Could not parse key sequence: plug-in='com.pandora.ui', id='org.eclipse.ui.edit.text.contentAssist.proposals', keySequence='Ctrl+Sapce'
+
+!ENTRY org.eclipse.ui 4 4 2018-01-02 08:13:24.160
+!MESSAGE Unable to create menu item "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction", command "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction" not defined
+
+!ENTRY com.aptana.scripting 4 0 2018-01-02 08:13:25.604
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'Build–in constant' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.scripting 4 0 2018-01-02 08:13:25.606
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'library class/type' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:13:25.999
+!MESSAGE (Build null) [ERROR]  ---------------------start check----------------------
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:13:26.000
+!MESSAGE check mode
+
+!ENTRY com.aptana.commandline.launcher 4 0 2018-01-02 08:13:26.908
+!MESSAGE Stream closed
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedReader.ensureOpen(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:133)
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:13:29.799
+!MESSAGE IDE lock
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:13:29.908
+!MESSAGE cancel lock
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:13:30.561
+!MESSAGE (Build null) [ERROR]  {hbcallrcptimes=1, allTime=start:null  end:1514852009932, loginPageShowTime=start:null  end:null, 0_beforeRCPTime=start:null  end:1514852002254, 1_beforeLauncherApplicationTime=863, 2_getRunningPortTime=41, 3_startServerTime=3, 4_beforeIdeApplicationTime=0, 5_createDisplayTime=77, 6_getRawLocationURITime=88, 7_beforeCheckInstanceLocationTime=10, 8_checkInstanceLocationTime=4, 9_initCEF=1, 10_beforeInitialize=242, 11_initialize=105, 12_beforePreStartup=10, 13_preStartup=54, 14_beforePreWindowOpenTime=62, 15_preWindowOpenTime=8, 16_beforePostWindowCreateTime=1729, 17_postWindowCreateTime=152, 18_beforeLockTime=297, importProjectsFromCodeDirTime=879, 19_LockTime=3800, 20_beforePostWindowOpenTime=132, userLoginConnectionTime=start:null  end:null, defaultLoginConnectionTime=start:null  end:null, tokenTime=start:null  end:null, ideReadyTime=142, activeEditor=com.pandora.ui.startpage.BrowserEditor, outline=false, eclipsestarttime=, hbkillrcptimes=1, hbuilderversion=7.6.2.201611251335, logintype=1}
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:13:30.827
+!MESSAGE (Build null) [ERROR]  workspace : file:\C:\Users\Administrator\Downloads\btzero_7_Director\btzero_7_Director
+
+!ENTRY com.aptana.editor.css 4 0 2018-01-02 08:13:30.937
+!MESSAGE (Build null) [ERROR]  开始清理css错误marker...
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-01-02 08:13:31.352
+!MESSAGE (Build null) [ERROR]  HBuilder当前版本: 7.6.2.201611251335
+
+!ENTRY com.aptana.editor.css 4 0 2018-01-02 08:13:31.462
+!MESSAGE (Build null) [ERROR]  清理css错误marker结束
+
+!ENTRY com.pandora.index.store 4 0 2018-01-02 08:13:32.460
+!MESSAGE (Build null) [ERROR]  IndexStoreService started!!!
+
+!ENTRY com.aptana.core 4 0 2018-01-02 08:13:32.495
+!MESSAGE (Build null) [ERROR]  *********索引不存在触发 FULL BUILD **********C:/Users/Administrator/Documents/HBuilderProjects/HelloHBuilder
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:13:32.590
+!MESSAGE (Build null) [ERROR]  load path error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\HBuilder.7.6.2.windows\HBuilder\plugins\com.pandora.tools.android.win32.x86_1.0.0.201611041714\library\CommonTool.dll: %1 不是有效的 Win32 应用程序。
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.loadAndroidLibrary(CommonToolLibraryFinder.java:59)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.getCommonToolLibrary(CommonToolLibraryFinder.java:75)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.<clinit>(CommonToolLibraryFinder.java:20)
+	at com.pandora.launcher.core.idevice.md.CommonToolLibrary.<clinit>(CommonToolLibrary.java:13)
+	at com.pandora.launcher.core.idevice.WinCommonToolLibrary.<clinit>(WinCommonToolLibrary.java:11)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryRegistry.getDeviceLibrary(CommonToolLibraryRegistry.java:11)
+	at com.pandora.launcher.core.android.AndroidLauncher.<init>(AndroidLauncher.java:107)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:27)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:13:32.597
+!MESSAGE (Build null) [ERROR]  load path error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\HBuilder.7.6.2.windows\HBuilder\plugins\com.pandora.tools.android.win32.x86_1.0.0.201611041714\library\CommonTool.dll: %1 不是有效的 Win32 应用程序。
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.loadAndroidLibrary(CommonToolLibraryFinder.java:59)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.getCommonToolLibrary(CommonToolLibraryFinder.java:75)
+	at com.pandora.launcher.core.idevice.md.CommonToolLibrary.<clinit>(CommonToolLibrary.java:13)
+	at com.pandora.launcher.core.idevice.WinCommonToolLibrary.<clinit>(WinCommonToolLibrary.java:11)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryRegistry.getDeviceLibrary(CommonToolLibraryRegistry.java:11)
+	at com.pandora.launcher.core.android.AndroidLauncher.<init>(AndroidLauncher.java:107)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:27)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:13:32.711
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.<clinit>(LibraryFinder.java:50)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:68)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:79)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:13:32.721
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:122)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:68)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:79)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:13:32.743
+!MESSAGE (Build null) [ERROR]  添加Android设备监听......
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:13:32.744
+!MESSAGE (Build null) [ERROR]  初始化Library失败
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:13:33.039
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:122)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.addNotificationHandler(WinDeviceLibrary.java:73)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher$5.run(IPhoneLauncher.java:653)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:13:33.067
+!MESSAGE (Build null) [ERROR]  library is null!!!!!
+
+!ENTRY com.pandora.mem 4 0 2018-01-02 08:13:33.190
+!MESSAGE (Build null) [ERROR]  load path error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\HBuilder.7.6.2.windows\HBuilder\plugins\com.pandora.mem_1.0.0.201608291731\tools\m.dll: %1 不是有效的 Win32 应用程序。
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.mem.core.MemLibraryFinder.loadMemoLibrary(MemLibraryFinder.java:79)
+	at com.pandora.mem.core.MemLibraryFinder.getMemoLibrary(MemLibraryFinder.java:64)
+	at com.pandora.mem.core.MemLibraryFinder.<clinit>(MemLibraryFinder.java:22)
+	at com.pandora.mem.core.md.MemoLibrary.<clinit>(MemoLibrary.java:7)
+	at com.pandora.mem.MemLibrary$1.run(MemLibrary.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.mem 4 0 2018-01-02 08:13:33.196
+!MESSAGE (Build null) [ERROR]  load path error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\HBuilder.7.6.2.windows\HBuilder\plugins\com.pandora.mem_1.0.0.201608291731\tools\m.dll: %1 不是有效的 Win32 应用程序。
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.mem.core.MemLibraryFinder.loadMemoLibrary(MemLibraryFinder.java:79)
+	at com.pandora.mem.core.MemLibraryFinder.getMemoLibrary(MemLibraryFinder.java:64)
+	at com.pandora.mem.core.md.MemoLibrary.<clinit>(MemoLibrary.java:7)
+	at com.pandora.mem.MemLibrary$1.run(MemLibrary.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.mem 4 0 2018-01-02 08:13:33.198
+!MESSAGE (Build null) [ERROR]  null
+!STACK 0
+java.lang.NullPointerException
+	at com.pandora.mem.MemLibrary$1.run(MemLibrary.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.parsing 4 0 2018-01-02 08:13:33.475
+!MESSAGE (Build null) [ERROR]  无效的属性类型“.webkit.SearchBoxImpl@4135441”属性“searchBoxJavaBridge_”
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2018-01-02 08:13:33.593
+!MESSAGE C:\HBuilder.7.6.2.windows\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content-561804826.jar 是合法的jar
+
+!ENTRY com.pandora.stats.core 1 0 2018-01-02 08:13:33.742
+!MESSAGE 
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2018-01-02 08:13:34.691
+!MESSAGE C:\HBuilder.7.6.2.windows\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content1190459293.jar 是合法的jar
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-01-02 08:13:36.043
+!MESSAGE (Build null) [ERROR]  最新版本: 8.9.1.201712121728
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-01-02 08:13:36.046
+!MESSAGE (Build null) [ERROR]  上次提醒更新版本: 8.9.1.201712121728
+!SESSION 2018-01-02 08:14:07.956 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication C:\Users\Administrator\Downloads\btzero_7_Director\btzero_7_Director\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication C:\Users\Administrator\Downloads\btzero_7_Director\btzero_7_Director\index.html
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-01-02 08:14:08.671
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:08.750
+!MESSAGE (Build null) [ERROR]  getRawLocationURI: file:/C:/Users/Administrator/Downloads/btzero_7_Director/btzero_7_Director
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:08.759
+!MESSAGE (Build null) [ERROR]  checkInstanceLocation
+
+!ENTRY com.pandora.core.utils 4 0 2018-01-02 08:14:08.770
+!MESSAGE (Build null) [ERROR]  remote-debugging-port == 49924
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:08.783
+!MESSAGE (Build null) [ERROR]  init CEF
+
+!ENTRY org.eclipse.ui 2 0 2018-01-02 08:14:08.907
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-01-02 08:14:08.908
+!MESSAGE Could not parse key sequence: plug-in='com.pandora.ui', id='org.eclipse.ui.edit.text.contentAssist.proposals', keySequence='Ctrl+Sapce'
+
+!ENTRY org.eclipse.ui 4 4 2018-01-02 08:14:09.353
+!MESSAGE Unable to create menu item "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction", command "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction" not defined
+
+!ENTRY com.aptana.scripting 4 0 2018-01-02 08:14:10.489
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'Build–in constant' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.scripting 4 0 2018-01-02 08:14:10.490
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'library class/type' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:10.735
+!MESSAGE (Build null) [ERROR]  ---------------------start check----------------------
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:10.736
+!MESSAGE check mode
+
+!ENTRY com.aptana.commandline.launcher 4 0 2018-01-02 08:14:19.652
+!MESSAGE Stream closed
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedReader.ensureOpen(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:133)
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:21.087
+!MESSAGE IDE lock
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:21.223
+!MESSAGE (Build null) [ERROR]  {hbcallrcptimes=1, allTime=start:null  end:1514852061182, loginPageShowTime=start:null  end:null, 0_beforeRCPTime=start:null  end:1514852047955, 1_beforeLauncherApplicationTime=570, 2_getRunningPortTime=31, 3_startServerTime=1, 4_beforeIdeApplicationTime=1, 5_createDisplayTime=60, 6_getRawLocationURITime=133, 7_beforeCheckInstanceLocationTime=7, 8_checkInstanceLocationTime=3, 9_initCEF=0, 10_beforeInitialize=275, 11_initialize=109, 12_beforePreStartup=10, 13_preStartup=21, 14_beforePreWindowOpenTime=60, 15_preWindowOpenTime=8, 16_beforePostWindowCreateTime=1197, 17_postWindowCreateTime=80, 18_beforeLockTime=216, importProjectsFromCodeDirTime=0, 19_LockTime=10350, 20_beforePostWindowOpenTime=95, userLoginConnectionTime=start:null  end:null, defaultLoginConnectionTime=start:null  end:null, tokenTime=start:null  end:null, ideReadyTime=98, activeEditor=com.pandora.ui.startpage.BrowserEditor, outline=false, eclipsestarttime=, hbkillrcptimes=1, hbuilderversion=7.6.2.201611251335, logintype=1}
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:21.648
+!MESSAGE (Build null) [ERROR]  workspace : file:\C:\Users\Administrator\Downloads\btzero_7_Director\btzero_7_Director
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:21.837
+!MESSAGE cancel lock
+
+!ENTRY com.aptana.core 4 0 2018-01-02 08:14:21.972
+!MESSAGE (Build null) [ERROR]  *********索引存在，不执行 FULL BUILD **********C:/Users/Administrator/Documents/HBuilderProjects/HelloHBuilder
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-01-02 08:14:22.459
+!MESSAGE (Build null) [ERROR]  HBuilder当前版本: 7.6.2.201611251335
+
+!ENTRY com.pandora.index.store 4 0 2018-01-02 08:14:22.763
+!MESSAGE (Build null) [ERROR]  IndexStoreService started!!!
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:22.805
+!MESSAGE (Build null) [ERROR]  load path error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\HBuilder.7.6.2.windows\HBuilder\plugins\com.pandora.tools.android.win32.x86_1.0.0.201611041714\library\CommonTool.dll: %1 不是有效的 Win32 应用程序。
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.loadAndroidLibrary(CommonToolLibraryFinder.java:59)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.getCommonToolLibrary(CommonToolLibraryFinder.java:75)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.<clinit>(CommonToolLibraryFinder.java:20)
+	at com.pandora.launcher.core.idevice.md.CommonToolLibrary.<clinit>(CommonToolLibrary.java:13)
+	at com.pandora.launcher.core.idevice.WinCommonToolLibrary.<clinit>(WinCommonToolLibrary.java:11)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryRegistry.getDeviceLibrary(CommonToolLibraryRegistry.java:11)
+	at com.pandora.launcher.core.android.AndroidLauncher.<init>(AndroidLauncher.java:107)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:27)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:22.868
+!MESSAGE (Build null) [ERROR]  load path error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\HBuilder.7.6.2.windows\HBuilder\plugins\com.pandora.tools.android.win32.x86_1.0.0.201611041714\library\CommonTool.dll: %1 不是有效的 Win32 应用程序。
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.loadAndroidLibrary(CommonToolLibraryFinder.java:59)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.getCommonToolLibrary(CommonToolLibraryFinder.java:75)
+	at com.pandora.launcher.core.idevice.md.CommonToolLibrary.<clinit>(CommonToolLibrary.java:13)
+	at com.pandora.launcher.core.idevice.WinCommonToolLibrary.<clinit>(WinCommonToolLibrary.java:11)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryRegistry.getDeviceLibrary(CommonToolLibraryRegistry.java:11)
+	at com.pandora.launcher.core.android.AndroidLauncher.<init>(AndroidLauncher.java:107)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:27)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:22.946
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.<clinit>(LibraryFinder.java:50)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:68)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:79)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:22.955
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:122)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:68)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:79)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:22.972
+!MESSAGE (Build null) [ERROR]  添加Android设备监听......
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:22.973
+!MESSAGE (Build null) [ERROR]  初始化Library失败
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:23.003
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:122)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.addNotificationHandler(WinDeviceLibrary.java:73)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher$5.run(IPhoneLauncher.java:653)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:23.030
+!MESSAGE (Build null) [ERROR]  library is null!!!!!
+
+!ENTRY com.pandora.stats.core 1 0 2018-01-02 08:14:23.223
+!MESSAGE 
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2018-01-02 08:14:23.298
+!MESSAGE C:\HBuilder.7.6.2.windows\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content-561804826.jar 是合法的jar
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2018-01-02 08:14:23.834
+!MESSAGE C:\HBuilder.7.6.2.windows\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content1190459293.jar 是合法的jar
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-01-02 08:14:25.201
+!MESSAGE (Build null) [ERROR]  最新版本: 8.9.1.201712121728
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-01-02 08:14:25.203
+!MESSAGE (Build null) [ERROR]  上次提醒更新版本: 8.9.1.201712121728
+!SESSION 2018-01-02 08:14:45.821 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication C:\Users\Administrator\Downloads\btzero_7_Director\btzero_7_Director\index.html
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication C:\Users\Administrator\Downloads\btzero_7_Director\btzero_7_Director\index.html
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-01-02 08:14:46.541
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:46.608
+!MESSAGE (Build null) [ERROR]  getRawLocationURI: file:/C:/Users/Administrator/Downloads/btzero_7_Director/btzero_7_Director
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:46.616
+!MESSAGE (Build null) [ERROR]  checkInstanceLocation
+
+!ENTRY com.pandora.core.utils 4 0 2018-01-02 08:14:46.630
+!MESSAGE (Build null) [ERROR]  remote-debugging-port == 50040
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:46.643
+!MESSAGE (Build null) [ERROR]  init CEF
+
+!ENTRY org.eclipse.ui 2 0 2018-01-02 08:14:46.768
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-01-02 08:14:46.768
+!MESSAGE Could not parse key sequence: plug-in='com.pandora.ui', id='org.eclipse.ui.edit.text.contentAssist.proposals', keySequence='Ctrl+Sapce'
+
+!ENTRY org.eclipse.ui 4 4 2018-01-02 08:14:47.176
+!MESSAGE Unable to create menu item "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction", command "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction" not defined
+
+!ENTRY com.aptana.scripting 4 0 2018-01-02 08:14:48.343
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'Build–in constant' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.scripting 4 0 2018-01-02 08:14:48.344
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'library class/type' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:48.596
+!MESSAGE (Build null) [ERROR]  ---------------------start check----------------------
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:48.597
+!MESSAGE check mode
+
+!ENTRY com.aptana.commandline.launcher 4 0 2018-01-02 08:14:52.406
+!MESSAGE Stream closed
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedReader.ensureOpen(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:133)
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:53.848
+!MESSAGE IDE lock
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:53.921
+!MESSAGE cancel lock
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:54.443
+!MESSAGE (Build null) [ERROR]  {hbcallrcptimes=1, allTime=start:null  end:1514852093959, loginPageShowTime=start:null  end:null, 0_beforeRCPTime=start:null  end:1514852085820, 1_beforeLauncherApplicationTime=572, 2_getRunningPortTime=31, 3_startServerTime=2, 4_beforeIdeApplicationTime=0, 5_createDisplayTime=62, 6_getRawLocationURITime=121, 7_beforeCheckInstanceLocationTime=8, 8_checkInstanceLocationTime=2, 9_initCEF=1, 10_beforeInitialize=250, 11_initialize=108, 12_beforePreStartup=9, 13_preStartup=16, 14_beforePreWindowOpenTime=58, 15_preWindowOpenTime=8, 16_beforePostWindowCreateTime=1227, 17_postWindowCreateTime=86, 18_beforeLockTime=216, importProjectsFromCodeDirTime=0, 19_LockTime=5251, 20_beforePostWindowOpenTime=111, userLoginConnectionTime=start:null  end:null, defaultLoginConnectionTime=start:null  end:null, tokenTime=start:null  end:null, ideReadyTime=114, activeEditor=com.pandora.ui.startpage.BrowserEditor, outline=false, eclipsestarttime=, hbkillrcptimes=1, hbuilderversion=7.6.2.201611251335, logintype=1}
+
+!ENTRY com.aptana.core 4 0 2018-01-02 08:14:54.760
+!MESSAGE (Build null) [ERROR]  *********索引存在，不执行 FULL BUILD **********C:/Users/Administrator/Documents/HBuilderProjects/HelloHBuilder
+
+!ENTRY com.aptana.rcp 4 0 2018-01-02 08:14:54.785
+!MESSAGE (Build null) [ERROR]  workspace : file:\C:\Users\Administrator\Downloads\btzero_7_Director\btzero_7_Director
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-01-02 08:14:55.170
+!MESSAGE (Build null) [ERROR]  HBuilder当前版本: 7.6.2.201611251335
+
+!ENTRY com.pandora.index.store 4 0 2018-01-02 08:14:55.652
+!MESSAGE (Build null) [ERROR]  IndexStoreService started!!!
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:55.681
+!MESSAGE (Build null) [ERROR]  load path error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\HBuilder.7.6.2.windows\HBuilder\plugins\com.pandora.tools.android.win32.x86_1.0.0.201611041714\library\CommonTool.dll: %1 不是有效的 Win32 应用程序。
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.loadAndroidLibrary(CommonToolLibraryFinder.java:59)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.getCommonToolLibrary(CommonToolLibraryFinder.java:75)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.<clinit>(CommonToolLibraryFinder.java:20)
+	at com.pandora.launcher.core.idevice.md.CommonToolLibrary.<clinit>(CommonToolLibrary.java:13)
+	at com.pandora.launcher.core.idevice.WinCommonToolLibrary.<clinit>(WinCommonToolLibrary.java:11)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryRegistry.getDeviceLibrary(CommonToolLibraryRegistry.java:11)
+	at com.pandora.launcher.core.android.AndroidLauncher.<init>(AndroidLauncher.java:107)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:27)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:55.690
+!MESSAGE (Build null) [ERROR]  load path error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\HBuilder.7.6.2.windows\HBuilder\plugins\com.pandora.tools.android.win32.x86_1.0.0.201611041714\library\CommonTool.dll: %1 不是有效的 Win32 应用程序。
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.loadAndroidLibrary(CommonToolLibraryFinder.java:59)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryFinder.getCommonToolLibrary(CommonToolLibraryFinder.java:75)
+	at com.pandora.launcher.core.idevice.md.CommonToolLibrary.<clinit>(CommonToolLibrary.java:13)
+	at com.pandora.launcher.core.idevice.WinCommonToolLibrary.<clinit>(WinCommonToolLibrary.java:11)
+	at com.pandora.launcher.core.idevice.CommonToolLibraryRegistry.getDeviceLibrary(CommonToolLibraryRegistry.java:11)
+	at com.pandora.launcher.core.android.AndroidLauncher.<init>(AndroidLauncher.java:107)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:27)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:55.792
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.<clinit>(LibraryFinder.java:50)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:68)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:79)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:55.800
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:122)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:68)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:79)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:55.832
+!MESSAGE (Build null) [ERROR]  添加Android设备监听......
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:55.841
+!MESSAGE (Build null) [ERROR]  初始化Library失败
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:55.850
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:122)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.addNotificationHandler(WinDeviceLibrary.java:73)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher$5.run(IPhoneLauncher.java:653)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-01-02 08:14:55.880
+!MESSAGE (Build null) [ERROR]  library is null!!!!!
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2018-01-02 08:14:56.200
+!MESSAGE C:\HBuilder.7.6.2.windows\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content-561804826.jar 是合法的jar
+
+!ENTRY com.pandora.stats.core 1 0 2018-01-02 08:14:56.227
+!MESSAGE 
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2018-01-02 08:14:56.892
+!MESSAGE C:\HBuilder.7.6.2.windows\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content1190459293.jar 是合法的jar
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-01-02 08:14:58.287
+!MESSAGE (Build null) [ERROR]  最新版本: 8.9.1.201712121728
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-01-02 08:14:58.288
+!MESSAGE (Build null) [ERROR]  上次提醒更新版本: 8.9.1.201712121728

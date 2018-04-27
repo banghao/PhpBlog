@@ -1,0 +1,36 @@
+#center_div
+{
+	position:relative;
+	margin: auto;
+	top: 120px;
+}
+#center_div h3
+{
+	position:relative;
+	margin: auto;
+	top: 30px;
+}
+#login_table
+{
+	position:relative;
+	top: 50px;
+	text-align: center;
+	margin:auto;
+}
+#login_button
+{
+	position:relative;
+	top:60px
+}
+#sign_in
+{
+	position: relative;
+	margin: auto;
+	text-align: center;
+	top: 75px;
+	
+}
+a:link {color:#2196f3;text-decoration:none;}      /* 未访问链接*/
+a:visited {color:#fffef7;text-decoration:none;}  /* 已访问链接 */
+a:hover {color:#2196f3;text-decoration:underline;}  /* 鼠标移动到链接上 */
+a:active {color:#2196f3;text-decoration:underline;}
